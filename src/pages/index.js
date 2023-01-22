@@ -276,6 +276,16 @@ const IndexPage = () => {
           </span>
         </div>
       </div>
+
+      <div className="container_4">
+        <div className='right-oval-3'></div>
+        <div className='newsletter'>
+          <div>Subscribe to Newsletter</div>
+          <p>We have a wide experience in experience design and strategy,</p>
+          <input type="text" placeholder='Enter your email address'></input>
+        </div>
+        <button type='submit' id='submit'>Send Now</button>
+      </div>
     </>
   )
 }

@@ -736,3 +736,93 @@ span#review_1 > div#badge_1 > div {
   letter-spacing: 0px;
   text-align: left;
 }
+
+/* container-4 */
+.container_4 {
+  height: 698px;
+  width: 1440px;
+  background: rgba(248, 253, 255, 1);
+  position: relative;
+  z-index: 1;
+}
+.right-oval-3 {
+  position: absolute;
+  box-sizing: border-box;
+  left: 1123px;
+  top: 2px;
+  border: 50px solid #ffffff;
+  box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798),
+    0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798) inset;
+  height: 301px;
+  width: 301px;
+  border-radius: 150.5px;
+  z-index: -1;
+}
+.newsletter {
+  position: absolute;
+  left: 121px;
+  top: 110px;
+  height: 478px;
+  width: 1198px;
+  border-radius: 20px;
+  background: rgba(0, 127, 244, 1);
+}
+
+div.newsletter > div {
+  margin-top: 44px;
+  margin-left: 320px;
+  height: 78px;
+  width: 559px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+div.newsletter > p {
+  margin-top: 12px;
+  margin-left: 326px;
+  height: 39px;
+  width: 555px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+div.newsletter > input {
+  margin-top: 80px;
+  margin-left: 177px;
+  height: 40px;
+  width: 766px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#submit {
+  position: absolute;
+  margin-top: 386px;
+  margin-left: 946px;
+  height: 74px;
+  width: 176px;
+  left: 0px;
+  top: 0px;
+  border-radius: 37px;
+  border: none;
+  background: rgba(0, 127, 244, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
