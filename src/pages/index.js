@@ -1,10 +1,20 @@
-import React from "react";
 import { Link } from "gatsby";
 import '../styles/global.css';
 import Review from '../images/review.jpg';
+import axios from "axios";
+import React, { useState, useEffect } from "react";
 
 
 const IndexPage = () => {
+
+  const [reviews, setReviews] = useState([])
+  useEffect(() => {
+    // eslint-disable-next-line react/destructuring-assignment
+    axios.get(`https://admin.tomedes.com/api/v1/get-reviews?page=1`).then((response) => {
+      setReviews(response.data.data)
+    })
+  }, [])
+
   return (
     <>
       <div className='container_1'>
@@ -264,16 +274,18 @@ const IndexPage = () => {
           <div className="review_content">What Our Customers Say</div>
         </div>
         <div className='reviews'>
-          <span id='review_1'>
-            <p>bgfgfbggngfngfn</p>
-            <img src={Review} alt="" />
-            <div>gggggg
-              <div>Patient</div>
-            </div>
-            <div id='badge_1'>
-              <div>“</div>
-            </div>
-          </span>
+          {reviews.map((review) => {
+            return (<span id='review_1' key={review.ID}>
+              <p>{review.Reviews.length > 131 ? `${review.Reviews.slice(1, 131) + "..."}` : `${review.Reviews}`}</p>
+              <img src={Review} alt="" />
+              <div>{review.Name}
+                <div>Patient</div>
+              </div>
+              <div id='badge_1'>
+                <div>“</div>
+              </div>
+            </span>)
+          })}
         </div>
       </div>
 
