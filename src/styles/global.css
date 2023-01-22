@@ -847,3 +847,69 @@ div.newsletter > input {
   font-size: 34px;
   line-height: 43px;
 }
+
+/* Container - 6 */
+.container_6 {
+  height: 241px;
+  width: 1440px;
+  background: rgba(236, 244, 255, 1);
+  overflow: hidden;
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 49px;
+}
+.fb {
+  margin-left: 124px;
+  height: 51px;
+  width: 51px;
+  background: rgba(247, 251, 255, 1);
+  border-radius: 25.5px;
+}
+div.fb > svg {
+  margin-left: 21.1px;
+  margin-top: 17px;
+  height: 18px;
+  width: 9px;
+  width: 9.000749588012695px;
+}
+.google {
+  margin-left: 9px;
+  height: 51px;
+  width: 51px;
+  background: rgba(247, 251, 255, 1);
+  border-radius: 25.5px;
+}
+div.google > svg {
+  margin-left: 21.1px;
+  margin-top: 17px;
+  height: 18px;
+  width: 18px;
+  width: 9.000749588012695px;
+}
+.twitter {
+  margin-left: 9px;
+  height: 51px;
+  width: 51px;
+  background: rgba(247, 251, 255, 1);
+  border-radius: 25.5px;
+}
+div.twitter > svg {
+  margin-left: 21.1px;
+  margin-top: 17px;
+  height: 15px;
+  width: 18px;
+  width: 9.000749588012695px;
+}
+.copyright {
+  margin-top: 16px;
+  margin-left: 121px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(102, 124, 148, 1);
+}
