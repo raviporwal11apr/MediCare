@@ -912,3 +912,8 @@ div.twitter > svg {
   text-align: left;
   color: rgba(102, 124, 148, 1);
 }
+@media only screen and (max-width: 600px) {
+  body,html {
+    width: 600px;
+  }
+}
