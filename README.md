@@ -40,14 +40,14 @@ This application provides total health solution.
 
 Whether you're helping us fix bugs, improve the docs, or spread the word, we'd love to have you as part of the Gatsby community!
 
-- ## **License**
+## **License**
 
 Licensed under the [MIT License](./LICENSE).
 
-- ## 💜 Thanks
+## **Thanks**
 
 Thanks go out to all our many contributors creating plugins, starters, videos, and blog posts. And a special appreciation for our community members helping with issues and PRs, or answering questions on Discord and GitHub Discussions.
 
 A big part of what makes Gatsby great is each and every one of you in the community. Your contributions enrich the Gatsby experience and make it better every day.
 
-- 📫 How to reach me **raviporwal11apr@gmail.com**
+## How to reach me **raviporwal11apr@gmail.com**
