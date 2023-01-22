@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import '../styles/global.css'
+import '../styles/global.css';
+import Review from '../images/review.jpg';
 
 
 const IndexPage = () => {
@@ -227,6 +228,52 @@ const IndexPage = () => {
             </g>
           </svg>
           <div>Emergency Care</div>
+        </div>
+      </div>
+
+      <div className="container_3">
+        <div className="right-oval-2"></div>
+        <div className='specialist'>
+          <div>We Have The Best Specialist</div>
+          <p>We have a wide experience in experience design and strategy, with locally-rooted knowledge.</p>
+        </div>
+        <div className="dr_details">
+          <div className='dr_1'>
+            <div className="dr_1_magenta"></div>
+            <div className="dr_1_name">Dr. Awaatif Al</div>
+            <div className="dr_1_stream">Dental Care</div>
+          </div>
+          <div className='dr_2'>
+            <div className="dr_2_magenta"></div>
+            <div className="dr_2_name">Dr. Filipa Gaspar</div>
+            <div className="dr_2_stream">Cardiology</div>
+          </div>
+          <div className='dr_3'>
+            <div className="dr_3_magenta"></div>
+            <div className="dr_3_name">Dr. Sukhmeet Gorae</div>
+            <div className="dr_3_stream">Neurological</div>
+          </div>
+          <div className='dr_4'>
+            <div className="dr_4_magenta"></div>
+            <div className="dr_4_name">Dr. Siri Jakobsson</div>
+            <div className="dr_4_stream">Prediatrics</div>
+          </div>
+        </div>
+
+        <div>
+          <div className="review_content">What Our Customers Say</div>
+        </div>
+        <div className='reviews'>
+          <span id='review_1'>
+            <p>bgfgfbggngfngfn</p>
+            <img src={Review} alt="" />
+            <div>gggggg
+              <div>Patient</div>
+            </div>
+            <div id='badge_1'>
+              <div>“</div>
+            </div>
+          </span>
         </div>
       </div>
     </>
