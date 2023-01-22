@@ -286,6 +286,21 @@ const IndexPage = () => {
         </div>
         <button type='submit' id='submit'>Send Now</button>
       </div>
+
+      <div className="container_5">
+        <div className="menu_footer">
+          <div className='navbar_brand_footer'>
+            <span id='medi'>Medi</span>
+            <span id='care'>Care+</span>
+          </div>
+          <div className='menu'>
+            <Link to='/' id='home'>Home</Link>
+            <Link to='/' id='about'>About</Link>
+            <Link to='/' id='services'>Services</Link>
+            <Link to='/' id='news'>News</Link>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
