@@ -1,54 +1,53 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+  MediCare+
 </h1>
 
-## 🚀 Quick start
+Quick start
 
-1.  **Create a Gatsby site.**
+## **Technologies Used**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- Gatsby.js
+- Axios
+- REST API
+- JavaScript
+- CSS
+- HTML
+- Git
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## **Description**
 
-2.  **Start developing.**
+This application provides total health solution.
 
-    Navigate into your new site’s directory and start it up.
+## **Setup/Installation Requirements**
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- Clone this repository to your desktop.
+- Navigate the top level of directory.
+- Open folder with same repository with desired code editor (VS Code).
+- Now open new terminal from menu of code editor.
+- Now run to install all dependencies.
 
-3.  **Open the code and start customizing!**
+  ```shell
+  npm install
+  ```
 
-    Your site is now running at http://localhost:8000!
+- Now run
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+  ```shell
+  npm run develop
+  ```
 
-4.  **Learn more**
+## **How to Contribute**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Whether you're helping us fix bugs, improve the docs, or spread the word, we'd love to have you as part of the Gatsby community!
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- ## **License**
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Licensed under the [MIT License](./LICENSE).
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- ## 💜 Thanks
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Thanks go out to all our many contributors creating plugins, starters, videos, and blog posts. And a special appreciation for our community members helping with issues and PRs, or answering questions on Discord and GitHub Discussions.
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+A big part of what makes Gatsby great is each and every one of you in the community. Your contributions enrich the Gatsby experience and make it better every day.
 
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- 📫 How to reach me **raviporwal11apr@gmail.com**
